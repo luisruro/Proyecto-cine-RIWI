@@ -195,7 +195,6 @@
                 <div class="cartelera-container">
 
                     <div class="cartelera-container-imagen">
-                        <span class="imagen-item">Estreno</span>
                         <figure class="container-imagen">
                             <img src="./public/img/img4.webp" alt="imagen de la pelicula Vermines" class="imagen">
                         </figure>
@@ -218,9 +217,35 @@
             
         </section>
 
+        <form action="" method="post" enctype="multipart/form-data" id="contacto" class="formulario">
+            <h2>Contacto</h2>
+            <fieldset class="fieldset">
+                <legend>Ponte en contacto con nosotros</legend>
+                <div class="nombre-container">
+                    <label for="nombre" class="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" required>
+                </div>
+                <br>
+                <div class="correo-container">
+                    <label for="correo" class="correo">Correo electrónico</label>
+                    <input type="email" name="correo" id="correo" required>
+                </div>
+                <div class="telefono-container">
+                    <label for="telefono" class="telefono">Teléfono:</label>
+                    <input type="tel" name="telefono" id="telefono" placeholder="3202146890" pattern="[0-9]{10}" required>
+                </div>
+                <div class="mensaje-container">
+                    <label for="mensaje" class="mensaje">Escribe un mensaje</label> <br>
+                    <textarea name="mensaje" id="mensaje" cols="20" rows="5" required></textarea>
+                </div>
+            </fieldset>
+        </form>
+
     </main>
 
-    <footer></footer>
+    <footer>
+        <h2>© 2024 Riwi Cine. Todos los derechos reservados</h2>
+    </footer>
 </body>
 
 </html>

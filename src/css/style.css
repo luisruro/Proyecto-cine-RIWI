@@ -17,6 +17,8 @@
     font-family: "Roboto Slab", serif;
 }
 
+/*Header*/
+
 .header{
     background-color: var(--negro);
     color: var(--blanco);
@@ -44,7 +46,7 @@
     text-decoration: none;
 }
 
-/**/
+/*secciones*/
 .seccion h2{
     margin-top: 10px;
     margin-bottom: 20px;
@@ -197,4 +199,59 @@
     padding: 15px 25px;
     border-radius: 30px;
     transition: padding 0.15s;
+}
+
+/*Contacto*/
+
+.formulario h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.fieldset{
+    border: none;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+    padding: 0;
+}
+
+.fieldset legend{
+    text-align: center;
+}
+
+.nombre-container, .correo-container, .telefono-container, .mensaje-container{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.nombre, .correo, .telefono, .mensaje{
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+#nombre #correo #telefono{
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+}
+
+/*Footer*/
+
+footer{
+    background-color: var(--negro);
+    color: var(--blanco);
+    height: 50px;
+    text-align: center;
+    padding:0;
+    margin-top: 20px;
+    font-size: 14px;
 }
